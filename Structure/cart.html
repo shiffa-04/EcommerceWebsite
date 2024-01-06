@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home page</title>
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    />
+
+    <link rel="stylesheet" href="../Styling/style.css" />
+  </head>
+
+  <body>
+    <section id="navv">
+      <nav class="container">
+        <div class="logo" height="200px" width="200px">
+          <img src="../Images/logo.png" alt="canva_logo" >
+        </div>
+        <ul id="navbar">
+          <li><a href="index.html">Home</a></li>
+          <li><a  href="shop.html">Shop</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a  href="contact.html">Contact</a></li>
+          <li id="md-bag"><a class="active"  href="cart.html"><i class="fa fa-shopping-cart"></i></a></li>
+          <a href="#" id="close"><i class="far fa-times"></i></a>
+        </ul>
+        <div id="tablet">
+          <a><i class="fa fa-shopping-cart"></i></a>
+          <i id="bar" class="fa fa-outdent"></i>
+          
+
+        </div>
+      </nav>
+    </section>
+    <section id="cart-header">
+      <div class="cart-heading">
+        <h2>#Cart</h2>
+        <p>Add your coupon code & SAVE much more!</p>
+      </div>
+    </section>
+    <section id="cart" class="section-p1">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>Remove</td>
+                    <td>Image</td>
+                    <td>Product</td>
+                    <td>Price</td>
+                    <td>Quantity</td>
+                    <td>Subtotal</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href=""><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="../Images/products/f1.jpg" alt=""></td>
+                    <td>Cartoon Astronaut T-Shirts</td>
+                    <td>$120.17</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$120.17</td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                    <td><a href=""><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="../Images/products/f2.jpg" alt=""></td>
+                    <td>Cartoon Astronaut T-Shirts</td>
+                    <td>$120.17</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$120.17</td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                    <td><a href=""><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="../Images/products/f5.jpg" alt=""></td>
+                    <td>Cartoon Astronaut T-Shirts</td>
+                    <td>$120.17</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$120.17</td>
+                </tr>
+            </tbody>
+
+        </table>
+
+    </section>
+    <section id="payment" class="section-p1">
+      <div class="cart-pay">
+        <div class="coupon">
+          <h4>Apply Coupon</h4>
+          <input type="text" placeholder="Enter Your coupon">
+          <button>Apply</button>
+        </div>
+        <div class="cart-total">
+          <h4>Cart Totals</h4>
+          <table>
+            <tr>
+              <td>Cart Subtotal</td>
+              <td>$654</td>
+            </tr>
+            <tr>
+              <td>Shipping</td>
+              <td>Free</td>
+            </tr>
+            <tr>
+              <td><strong>Total</strong></td>
+              <td><strong>$654</strong></td>
+            </tr>
+            
+          </table>
+          <button>Proceed to checkout</button>
+        </div>
+
+      </div>
+
+    </section>
+    <footer id="footer" class="section-p1">
+      <div class="col">
+        <div class="col-img">
+          <img src="../Images/logo.png" alt="logo">
+        </div>
+        <div class="contact">
+          <h4>Contact</h4>
+        <p><strong>Address:</strong>562 convent Road,Rajbagh</p>
+        <p><strong>Phone:</strong>+03484648/ (+91)0983645754</p>
+        <p><strong>Hours:</strong>10:00-18:00, Mon-Sat</p>
+        <div class="follow">
+          <h4>Follow Us</h4>
+        <div class="icons">
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-pinterest-p"></i>
+          <i class="fab fa-youtube"></i>
+        </div>
+        </div>
+      </div>
+
+        </div>
+        
+      <div class="About">
+        <h4>About</h4>
+        <a href="#">About US</a>
+        <a href="#">Delivery Information</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Conditions</a>
+        <a href="#">Contact Us</a>
+      </div>
+      <div class="account">
+        <h4>My Account</h4>
+        <a href="#">Sign In</a>
+        <a href="#">View Cart</a>
+        <a href="#">My Wishlist</a>
+        <a href="#">Track My Order</a>
+        <a href="#">Help</a>
+      </div>
+      <div class="app">
+        <h4>Install App</h4>
+        <p>From App Store or Google Play</p>
+        <div class="download">
+          <img src="../Images/pay/app.jpg">
+          <img src="../Images/pay/play.jpg">
+        </div>
+        <p>Secured Payment Gateways</p>
+        <img src="../Images/pay/pay.png">
+      </div>
+    </footer>
+    <div class="copyright">
+      <p>© 2023,Tech2 etc - HTML CSS Ecommerce Template</p>
+    </div>
+    <script src="../JavaScript/script.js"></script>
+  </body>
+</html>
